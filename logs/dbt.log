@@ -1,0 +1,19 @@
+
+
+============================== 2022-01-17 02:45:30.249583 | 81a8ec85-a09a-4244-9a01-fa10d6c96341 ==============================
+02:45:30.249583 [info ] [MainThread]: Running with dbt=1.0.1
+02:45:30.250226 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.init.InitTask'>, debug=None, defer=None, event_buffer_size=None, fail_fast=None, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='/root/.dbt', project_dir=None, project_name='learn-dbt', record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, skip_profile_setup=False, state=None, static_parser=None, target=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='init', write_json=None)
+02:45:30.250438 [debug] [MainThread]: Tracking: tracking
+02:45:30.298745 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4b5bb3c9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4b5bb3c880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4b5bb3c760>]}
+02:45:30.299267 [info ] [MainThread]: Creating dbt configuration folder at /root/.dbt
+02:45:30.301107 [debug] [MainThread]: Starter project path: /usr/local/lib/python3.8/dist-packages/dbt/include/starter_project
+02:47:03.639849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4b5bb3c4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4b5bb3c3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4b5bb3c280>]}
+
+
+============================== 2022-01-17 02:51:19.724640 | e235207e-5d24-4b6c-8912-0b9c39debd24 ==============================
+02:51:19.724640 [info ] [MainThread]: Running with dbt=1.0.1
+02:51:19.725872 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.init.InitTask'>, debug=None, defer=None, event_buffer_size=None, fail_fast=None, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='/root/.dbt', project_dir=None, project_name='learn-dbt', record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, skip_profile_setup=False, state=None, static_parser=None, target=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='init', write_json=None)
+02:51:19.726096 [debug] [MainThread]: Tracking: tracking
+02:51:19.758089 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac06e36bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac06e36a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac06e36940>]}
+02:51:19.758721 [info ] [MainThread]: A project called learn-dbt already exists here.
+02:51:19.759232 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac06e36a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac06e36970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fac06e367c0>]}
