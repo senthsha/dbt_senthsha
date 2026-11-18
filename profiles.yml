@@ -1,0 +1,19 @@
+user:
+  outputs:
+    default:
+      account: CQLRXHX-BQB94813
+      auth_type: keypair
+      client_session_keep_alive: false
+      connect_retries: 3
+      connect_timeout: 30
+      database: DEMO_DB
+      private_key_passphrase: s
+      private_key_path: /tmp/.dbt/keyfile.pem
+      retry_on_database_errors: true
+      role: ACCOUNTADMIN
+      schema: public
+      threads: 6
+      type: snowflake
+      user: dbt_user
+      warehouse: COMPUTE_WH
+  target: default
