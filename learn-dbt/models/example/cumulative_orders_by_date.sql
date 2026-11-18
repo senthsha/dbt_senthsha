@@ -1,4 +1,9 @@
-{{ config (materialized='table')}}
+{{
+  config(
+    materialized='table',
+    transient=false
+  )
+}}
 
 select O_ORDERDATE ORDERDATE,
 SUM (O_TOTALPRICE) OVER ( ORDER  BY O_ORDERDATE range between unbounded preceding and current row) cumulative_price
