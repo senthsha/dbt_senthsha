@@ -1,4 +1,9 @@
-{{ config (materialized='table')}}
+{{
+  config(
+    materialized='table',
+    transient=false
+  )
+}}
 
 select
 C_CUSTKEY C_CUSTKEY,
