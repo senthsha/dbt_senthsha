@@ -21,7 +21,7 @@ END_LAT,
 END_LNG,
 MEMBER_CSUAL
 
-from {{ source('DEMO', 'BIKE') }}
+from {{ source('DEMO_DB', 'BIKE') }}
 
 where RIDE_ID not in ('"bikeid"', '""bikeid""') 
   and STARTED_AT not in ('"starttime"', 'starttime', '""starttime""')

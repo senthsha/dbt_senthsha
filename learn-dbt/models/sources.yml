@@ -1,5 +1,5 @@
 sources:
-  - name: DEMO
+  - name: DEMO_DB
     database: DEMO_DB  
     schema: PUBLIC 
     tables:
